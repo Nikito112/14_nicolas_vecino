@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html>
 
-<head> 
+<head>
     <title>Práctica 2.4.1</title>
     <h1>Práctica 2.4.1 Nicolás Vecino</h1>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .form_button {
+            display: block;
+            margin-top: 15px;
+            background-color: rgb(79, 60, 96);
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 
 <body>
-<form>
-    <fieldset>
-        <legend>
-            <label>Personaje</label>
+    <form action="mailto:nicolas.vecino@educa.madrid.org">
+        <fieldset>
+            <legend>Personaje</legend>
+            <label for="Superheroe">Superhéroe favorito</label>
 
-        </legend>       
-    </fieldset>
+            <select id="Superheroe" name="Superheroe">
+                <option value="Hulk">Hulk</option>
+                <option value="IronMan">Iron Man</option>
+                <option value="CapitanAmerica">Capitan America</option>
+                <option value="ViudaNegra">Viuda Negra</option>
+                <option value="DeadPool">DeadPool</option>
+                <option value="Wolverine">Wolverine</option>
+                <option value="GreenLantern">Green Lantern</option>
+                <option value="CharlesXavier">Charles Xavier</option>
+            </select>
 
+            <label for="color">Color</label>
+            <input name="color" id="color" type="color">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de usuario</legend>
+            <label for="Nombre">Nombre</label>
+            <input id="Nombre" placeholder="Escribe Aquí" id="name" type="text"></input>
+            <label for="Telefono">Teléfono</label>
+            <input id="Telefono" placeholder="Escribe Aquí" id="Telefono" type="number"></input>
 
-</form>
+        </fieldset>
+        <input class="form_button" type="submit" value="Enviar">
+
+    </form>
 
 </body>
 
