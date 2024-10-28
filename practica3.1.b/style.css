@@ -1,0 +1,46 @@
+
+
+h1 {
+    color: aquamarine;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+h3 {
+    font-style: italic;
+}
+
+#CodigoCSS {
+    color: chartreuse;
+
+
+}
+
+#hay {
+    font-weight: 900;
+}
+
+code {
+    color: blue;
+    font-weight: bold;
+}
+
+#style {
+    font-weight: bold;
+}
+
+#hoja {
+    color: red;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+}
+
+.parrafo1 {
+    text-transform: uppercase;
+    color: gray;
+}
