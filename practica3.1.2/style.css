@@ -46,3 +46,16 @@ th:nth-child(1){
     background-color: white;
     color: white;
 }
+td.EMPRESA:hover {
+    background-color: crimson;
+}td.SEGINF:hover {
+    background-color: blueviolet;
+}td.SOR:hover {
+    background-color: grey;
+}td.APWEB:hover {
+    background-color: brown;
+}td.SERVRED:hover {
+    background-color: yellowgreen;
+}td.INGLÉS:hover {
+    background-color: rgb(223, 158, 255);
+}
