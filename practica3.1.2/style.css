@@ -72,5 +72,11 @@ td.SERVRED:hover {
 
 td.INGLÉS:hover {
     background-color: rgb(245, 126, 126);
+    
 }
-
+#aula {
+    visibility: hidden;
+}
+td.SEGINF:hover #aula {
+    visibility: visible;
+}
