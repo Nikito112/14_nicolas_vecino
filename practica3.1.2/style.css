@@ -34,28 +34,43 @@ td.recreo:hover {
 table {
     border: 20px;
 }
+
 .recreo {
     background-color: yellow;
 }
-td:nth-child(1){
+
+td:nth-child(1) {
     background-color: rgb(78, 78, 219);
     color: azure;
     border-radius: 15px;
 }
-th:nth-child(1){
+
+th:nth-child(1) {
     background-color: white;
     color: white;
 }
+
 td.EMPRESA:hover {
     background-color: crimson;
-}td.SEGINF:hover {
-    background-color: blueviolet;
-}td.SOR:hover {
-    background-color: grey;
-}td.APWEB:hover {
-    background-color: brown;
-}td.SERVRED:hover {
-    background-color: yellowgreen;
-}td.INGLÉS:hover {
-    background-color: rgb(223, 158, 255);
 }
+
+td.SEGINF:hover {
+    background-color: blueviolet;
+}
+
+td.SOR:hover {
+    background-color: grey;
+}
+
+td.APWEB:hover {
+    background-color: brown;
+}
+
+td.SERVRED:hover {
+    background-color: yellowgreen;
+}
+
+td.INGLÉS:hover {
+    background-color: rgb(245, 126, 126);
+}
+
