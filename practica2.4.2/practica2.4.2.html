@@ -3,7 +3,7 @@
 
 <head>
     <title>Práctica 2.4.2</title>
-    <h1>Práctica 2.4.1 Nicolás Vecino</h1>
+
     <style>
         label {
             display: block;
@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <h1>Práctica 2.4.1 Nicolás Vecino</h1>
     <form action="mailto:nicolas.vecino@educa.madrid.org">
         <fieldset>
             <legend>Personaje</legend>
@@ -43,7 +44,7 @@
         <fieldset>
             <legend>Datos de usuario</legend>
             <label for="Nombre">Nombre</label>
-            <input id="Nombre" placeholder="Escribe Aquí" id="name" type="text"></input>
+            <input id="Nombre" placeholder="Escribe Aquí" type="text"></input>
             <label for="Telefono">Teléfono</label>
             <input id="Telefono" placeholder="Escribe Aquí" id="Telefono" type="number"></input>
             <label for="Fecha">Fecha</label>
@@ -55,29 +56,40 @@
             <legend>Selecciona forma de contacto preferida</legend>
             <div style="display: flex; gap: 10px;">
                 <label for="Email">Email</label>
-                <input id="Email" type="radio">
+                <input id="Email" type="radio" name="FormaContacto" value="Email">
                 <label for="Telefono">Teléfono</label>
-                <input id="Telefono" type="radio">
+                <input id="Telefono" type="radio" name="FormaContacto" value="Telefono">
                 <label for="Carta">Carta</label>
-                <input id="Carta" type="radio">
+                <input id="Carta" type="radio" name="FormaContacto" value="Carta">
             </div>
         </fieldset>
         <fieldset>
             <legend>Elige tus asignaturas favoritas</legend>
 
             <label for="AplicacionesWeb">Aplicaciones Web</label>
-            <input id="AplicacionesWeb" type="checkbox">
+            <input type="checkbox" id="AplicacionesWeb" name="asignaturas" value="APWEB">
             <label for="SeguridadInformatica">Seguridad Informática</label>
-            <input id="SeguridadInformatica" type="checkbox">
+            <input id="SeguridadInformatica" type="checkbox" name="SeguridadInformatica" value="SEGINF">
 
         </fieldset>
+        <fieldset>
+            <legend> Información adicional</legend>
+            <label for="satisfacción"> Grado de satisfacción</label>
+            <input type="range" id="satisfacción">
+            <label for="Semana"> Semana de envio</label>
+            <input type="week" id="Semana">
+            <label for="telefono"> teléfono de emergencia</label>
+            <input type="tel" id="telefono">
+            <label for="Url"> URL de su curriculum</label>
+            <input type="url" id="Url">
+        </fieldset>
+
         <div style="display: flex; gap: 10px;">
+            <form method="post"></form>
             <input class="form_button" type="submit" value="Enviar">
             <input class="form_button" type="reset" value="reset">
         </div>
-
     </form>
-
 </body>
 
 
