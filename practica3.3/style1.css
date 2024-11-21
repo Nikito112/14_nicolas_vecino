@@ -5,14 +5,8 @@ body {
   font-family: 'Raleway';
 }
 
-header img {
-
-  border-radius: 10px;
-}
-
 header h1 {
   text-shadow: 2px 3px 0px rgb(35, 168, 124);
-
 }
 
 header img {
@@ -24,7 +18,7 @@ header {
   color: white;
   text-align: center;
   padding: 1%;
-  background: rgb(109, 202, 255);
+ background: rgb(109, 202, 255);
   background: radial-gradient(circle, rgb(42, 64, 187) 0%, rgba(148, 187, 233, 1) 100%);
   font-size: 20px;
 }
@@ -55,11 +49,7 @@ footer {
   content: "►";
   padding-right: 0.5em;
   color: #509e98;
-}
-
-#skills .languages ul>li:before {
-  content: '';
-  padding-right: 0em;
+  
 }
 
 #skills ul {
@@ -110,3 +100,4 @@ nav ul li a {
 .contacto{
   list-style: none;
 }
+
