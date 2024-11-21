@@ -104,8 +104,9 @@ nav ul li a {
 }
 
 .active{
-
+  background-color:sandybrown;
 }
+
 .contacto{
   list-style: none;
 }
