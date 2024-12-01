@@ -1,107 +1,103 @@
 body {
-    font-size: 16px;
-    margin: 0;
-    line-height: 1.8em;
-    font-family: 'Raleway';
-
-}
-
-header img {
-
-    border-radius: 100px;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.3em;
+  font-family: 'Raleway';
 }
 
 header h1 {
-    text-shadow: 2px 3px 0px rgb(35, 168, 124);
-
+  text-shadow: 2px 3px 0px rgb(35, 168, 124);
 }
 
 header img {
-    border-radius: 10%;
-    max-width: 150px;
+  border-radius: 75%;
+  max-width: 120px;
 }
 
 header {
-    color: white;
-    text-align: center;
-    padding: 2%;
-    background: rgb(109, 202, 255);
-    background: radial-gradient(circle, rgb(42, 64, 187) 0%, rgba(148, 187, 233, 1) 100%);
-    font-size: 20px;
-}
-
-nav {
-    justify-content: space-between;
-    background-color: #94bbe9;
-    display: flex;
-
+  color: white;
+  text-align: center;
+  padding: 1%;
+ background: rgb(109, 202, 255);
+  background: radial-gradient(circle, rgb(42, 64, 187) 0%, rgba(148, 187, 233, 1) 100%);
+  font-size: 20px;
 }
 
 section {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 section:not(:last-child) {
-    border-bottom: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .knowledge {
-    justify-content: space-between;
-    display: grid;
-    grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 50% 50%;
 
 }
 
 footer {
-    background-color: #94bbe9;
-    min-height: 100px;
-    text-align: end;
-    padding: 20px 15px;
+  background-color: #94bbe9;
+  min-height: 100px;
+  text-align: end;
+  padding: 20px 15px;
 }
 
 #skills ul>li:before {
-    content: "►";
-    padding-right: 0.5em;
-    color: #509e98;
-}
-
-#skills .languages ul>li:before {
-    content: '';
-    padding-right: 0em;
+  content: "►";
+  padding-right: 0.5em;
+  color: #509e98;
+  
 }
 
 #skills ul {
-    list-style: none;
+  list-style: none;
 }
 
 h3 {
-    color: rgb(49, 0, 184);
+  color: rgb(49, 0, 184);
 }
 
 h4 {
-    color: rgb(33, 0, 179);
+  color: rgb(33, 0, 179);
 }
 
-#nav {
-    background-color: beige;
-}
-#nav ul {
-    display: flex;
-    justify-content: right;
+nav {
+  background-color: beige;
 }
 
-#nav ul li {
-    background-color: rgb(42, 44, 165);
-    padding: 10px;
-    border: 5px solid rgb(4, 36, 71);
-    margin: 10px;
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+
 }
 
-#nav ul li:hover {
-    background-color: rgb(34, 161, 151);
+nav ul li {
+  background-color: rgb(183, 184, 231);
+  padding: 10px;
+  border: 5px solid rgb(54, 82, 112);
+}
+nav ul li:hover {
+  background-color: rgb(19, 221, 204);
 }
 
-#nav ul li a {
-    color: white;
-    font-size: 16px;
+nav ul li a {
+  color: rgb(41, 10, 212);
+  font-size: 16px;
 }
+
+.active a{
+  cursor: default;
+}
+
+.active{
+  background-color:sandybrown;
+}
+
+.contacto{
+  list-style: none;
+}
+
