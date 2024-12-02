@@ -4,14 +4,14 @@ function cambiarColor() {
 
     var divColor = div.style.backgroundColor;
 
-    if( divColor == "black") {
+    if( divColor == "gray") {
         div.style.backgroundColor = "pink";
     }
     else if( divColor == "pink"){
         div.style.backgroundColor = "blue"
     }
     else {
-        div.style.backgroundColor = "black";
+        div.style.backgroundColor = "gray";
     }
 }
 
