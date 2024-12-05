@@ -8,10 +8,13 @@ function cambiarColor() {
         div.style.backgroundColor = "pink";
     }
     else if( divColor == "pink"){
-        div.style.backgroundColor = "blue"
+        div.style.backgroundColor = "blue";
+        div.style.color = "white";
+
     }
     else {
         div.style.backgroundColor = "gray";
+        div.style.color = "black"
     }
 }
 

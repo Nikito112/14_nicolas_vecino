@@ -17,6 +17,8 @@
             <input type="number" max="10" id="nota_segunda_ev">
             <label>Nombre</label>
             <input type="text" id="nombre" name="nombre">
+            <label>Nota tercera evaluaci&oacute;n</label>
+            <input type="number" max="10" id="nota_tercera_ev">
         </form>
         <!-- TODO: hacer que al pulsar el botón se calcule la nota final y se pinte el div con el texto y color adecuados -->
         <button name="calcular" onclick="calcularNotaFinal()">Calcular nota</button>
@@ -32,12 +34,14 @@
                 console.log("Nota primer input" + notaPrimeraEv);
 
                 var notaSegundaEv = document.getElementById("nota_segunda_ev").value;
-                console.log("Nota segundo input" + notaSegundaEv)
+                console.log("Nota segundo input" + notaSegundaEv);
 
+                var notaTerceraEv = document.getElementById("nota_tercera_ev").value;
+                
                 var nombre = document.getElementById("nombre").value;
                 var divResultado = document.getElementById("resultado");
                 //en la variable notaFinal guardamos (notaPrimeraEv + notaSegundaEv) / 2
-                var notaFinal = (parseInt(notaPrimeraEv) + parseInt(notaSegundaEv))/2;
+                var notaFinal = (parseInt(notaPrimeraEv) + parseInt(notaSegundaEv) + parseInt(notaTerceraEv))/3;
                 console.log("Nota media:" + notaFinal)
                 
                 if(notaFinal >= 5){
